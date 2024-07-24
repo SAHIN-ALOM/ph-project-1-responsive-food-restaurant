@@ -1,0 +1,31 @@
+@media screen and (max-width: 576px) {
+
+  /* hero styles */
+  .hero {
+    padding: 100px 0px;
+  }
+
+  .hero-contents {
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .hero-title{
+    font-size: 2.9rem;
+  }
+  .hero-sub-title{
+    font-size: 1.3rem;
+  }
+  /* food card section */
+  .food-card-section{
+    max-width: 90%;
+  }
+  .food-card-container{
+    flex-direction: column;
+  }
+  /* follow us section style */
+  .follow-us{
+    flex-direction: column;
+    gap: 50px;
+  }
+}

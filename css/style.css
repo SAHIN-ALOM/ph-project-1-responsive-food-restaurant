@@ -1,0 +1,146 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+main > section{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+img{
+  width: 100%;
+}
+a{
+  text-decoration: none;
+}
+/* shared or common style */
+.color-light{
+  color: white;
+}
+.secondary-color{
+  color: gainsboro;
+}
+.margin-x-20{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.margin-x-15{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.margin-b-16{
+  margin-bottom: 16px;
+}
+.t-center{
+  text-align: center;
+}
+/* hero styles */
+.hero {
+  background-image: url(../assets/hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: overlay;
+  /* background-color:rgba(17, 110, 29, 0.425); */
+  padding: 150px 0px;
+}
+
+.hero-contents {
+  max-width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+.hero-sub-title{
+  font-size: 1.4rem;
+}
+.hero-title{
+  font-size: 3.5rem;
+}
+.hero-desc{
+  font-size: 1.1rem;
+}
+.hero-btn{
+  padding: 15px 20px;
+  border: none;
+  border-radius:5px;
+  background-color: rgb(37, 167, 37);
+  color: white;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+/* food card section */
+.food-card-section{
+  max-width: 70%;
+  margin: 50px auto;
+}
+.food-sec-subtitle{
+  font-size: 1.4rem;
+}
+.food-sec-title{
+  font-size: 2.5rem;
+}
+/* food card styles */
+.food-card-container{
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+}
+.food-card{
+  border-radius: 10px;
+  text-align: center;
+  padding: 12px;
+  box-shadow: 5px 5px 25px gainsboro;
+}
+.card-img{
+  margin-bottom: 35px;
+}
+.card-btn{
+  padding: 12px 20px;
+  background-color: rgba(102, 172, 22, 0.596);
+  border-radius: 5px;
+  margin: 20px 0px;
+}
+.card-title{
+  margin-top: 30px;
+}
+.food-sec-btn{
+  margin: 50px 0px;
+}
+.food-sec-btn a{
+  padding: 15px 40px;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+/* Follow us section */
+.follow-us{
+  margin-top: 130px;
+  display: flex;
+  align-items: center;
+}
+.follow-info-column{
+  text-align: center;
+}
+.follow-info-column h1{
+  font-size: 2rem;
+}
+.follow-info-column h3{
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+  color: rgb(167, 166, 166);
+}
+.follow-info-column h2{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.social-links{
+  margin-top: 50px;
+}
+.social-links a{
+  padding: 15px 25px;
+  background-color: rgba(142, 228, 57, 0.781);
+  border-radius: 5px;
+}
